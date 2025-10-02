@@ -1,0 +1,10 @@
+@HD	VN:1.4
+@SQ	SN:NC_003070.9	LN:30427671
+@SQ	SN:NC_003071.7	LN:19698289
+@SQ	SN:NC_003074.8	LN:23459830
+@SQ	SN:NC_003075.7	LN:18585056
+@SQ	SN:NC_003076.8	LN:26975502
+@SQ	SN:NC_037304.1	LN:367808
+@SQ	SN:NC_000932.1	LN:154478
+@PG	ID:STAR	PN:STAR	VN:2.7.11a	CL:STAR   --genomeDir /home/mp7563/Genomes/arabidopsis_thaliana   --genomeLoad Remove
+@CO	user command line: STAR --genomeLoad Remove --genomeDir /home/mp7563/Genomes/arabidopsis_thaliana
