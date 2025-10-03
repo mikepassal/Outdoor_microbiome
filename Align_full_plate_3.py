@@ -12,7 +12,7 @@ number_of_cores_to_use = 48
 os.system(f"STAR --genomeLoad LoadAndExit --genomeDir {genome_directory}")
 
 for sample in list_of_samples_to_process:
-    os.system(f"STAR --runThreadN {number_of_cores_to_use} --genomeDir {genome_directory} --readFilesIn {data_directory}/{sample} --outFileNamePrefix {output_directory}/{sample}_  --quantMode GeneCounts --outSAMtype None")
+    os.system(f"STAR --runThreadN {number_of_cores_to_use} --genomeDir {genome_directory} --readFilesIn {data_directory}/{sample} --outFileNamePrefix {output_directory}/{sample}_  --quantMode GeneCounts --outSAMtype None --readFilesCommand gunzip -c")
 os.system(f"STAR --genomeLoad Remove --genomeDir {genome_directory}")
 end_time = time.time()
 change_in_time = end_time - start_time
