@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=48
-#SBATCH --time=05:00:00
+#SBATCH --time=06:00:00
 #SBATCH --mem=40GB
 #SBATCH --job-name=Align_plate_2
 #SBATCH --mail-type=END
