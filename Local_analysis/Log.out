@@ -1,0 +1,60 @@
+STAR version=2.7.5a
+STAR compilation time,server,dir=Tue Jun 16 16:47:12 GMT 2020 :/Users/travis/build/alexdobin/travis-tests/STARcompile/source
+##### Command Line:
+STAR --genomeLoad LoadAndExit --genomeDir /Users/michael/Data/Genomes/Arabidopsis_thaliana/
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+genomeLoad                    LoadAndExit     ~RE-DEFINED
+genomeDir                     /Users/michael/Data/Genomes/Arabidopsis_thaliana/     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+genomeDir                         /Users/michael/Data/Genomes/Arabidopsis_thaliana/
+genomeLoad                        LoadAndExit
+
+-------------------------------
+##### Final effective command line:
+STAR   --genomeDir /Users/michael/Data/Genomes/Arabidopsis_thaliana/   --genomeLoad LoadAndExit
+----------------------------------------
+
+Number of fastq files for each mate = 1
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 24   --genomeDir .   --genomeFastaFiles /Users/michael/Data/Genomes/Arabidopsis_thaliana/arabidopsis.fna      --genomeSAindexNbases 12   --sjdbGTFfile /Users/michael/Data/Genomes/Arabidopsis_thaliana/arabidopsis.gtf   --sjdbOverhang 100
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /Users/michael/Data/Genomes/Arabidopsis_thaliana/arabidopsis.fna        ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /Users/michael/Data/Genomes/Arabidopsis_thaliana/arabidopsis.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               147987565   1210665946        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 7
+1	NC_003070.9	30427671	0
+2	NC_003071.7	19698289	30670848
+3	NC_003074.8	23459830	50593792
+4	NC_003075.7	18585056	74186752
+5	NC_003076.8	26975502	92798976
+6	NC_037304.1	367808	119799808
+7	NC_000932.1	154478	120324096
+--sjdbOverhang = 100 taken from the generated genome
+Started loading the genome: Fri Oct 10 13:55:23 2025
+
+Genome: size given as a parameter = 147987565
+SA: size given as a parameter = 1210665946
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=12  nSAi=22369620
+nGenome=147987565;  nSAbyte=1210665946
+GstrandBit=32   SA number of indices=293494774
+Allocating shared memory for genome
