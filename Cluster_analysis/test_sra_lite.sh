@@ -14,5 +14,5 @@ module purge
 module load star/intel/2.7.11a
 
 
-singularity exec --overlay /home/mp7563/Python_envs/Python_envs.ext3:ro /home/mp7563/Python_envs/ubuntu_cuda_image.sif /bin/bash -c "source /ext3/env.sh; conda activate Luke_terrace; module load star/intel/2.7.11a; python /home/mp7563/Git/Outdoor_microbiome/Align_full_plate_4.py"
+singularity exec --overlay /home/mp7563/Python_envs/Python_envs.ext3:ro /home/mp7563/Python_envs/ubuntu_cuda_image.sif /bin/bash -c "source /ext3/env.sh; conda activate Luke_terrace; module load star/intel/2.7.11a; python /home/mp7563/Git/Outdoor_microbiome/Cluster_analysis/test_sra_lite.py"
 
