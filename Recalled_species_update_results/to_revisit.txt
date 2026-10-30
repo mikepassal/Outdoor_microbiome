@@ -1,0 +1,9 @@
+To revisit (recalled species notebooks)
+
+- Dysbiosis threshold: now 3% of reads in rare species (first tried 10%, which called only 3 samples); revisit using the threshold curve.
+- Plant samples LIC148, LIC162, LIC584 (< 1,600 16S reads) and LIC577 (reason unknown) were left out of the genus table; kept here for now. Decide whether to drop them (samples_to_drop at top of each notebook).
+- Soil-to-plant Sankey: compare the pooled-per-timepoint and individual-core versions.
+- Skipped notebooks, decide whether to port: microbiome_features_stratifying_* (3), core_genera_total_abundance, de_design_checks_blocker_and_seasonal_only.
+- Caldora sp. (Cyanobacteria) bloom gives the strongest DE in the definition screen (4,010 genes, lower defense) and tracks low bacterial load within timepoint (rho -0.55). Check with Luke whether these reads could be chloroplast misassigned to Cyanobacteria before interpreting.
+- Definition screen: decide which candidate definitions to follow up (fungal load, Pseudomonas / pathogen genera, Kordiimonas, community-type clusters, abiotic-stress transcriptome axis).
+- Kordiimonas sp002401685 (Alphaproteobacteria, 100% prevalence) has an almost constant amount per unit host DNA (within-timepoint SD of log10 per-host amount 0.09 vs 0.25-0.65 for other core species), which is what mitochondrial reads would look like. Ask Luke whether chloroplast/mitochondrial reads were filtered (e.g. SILVA "Chloroplast"/"Mitochondria") before the GTDB classification; the ASV IDs look like GTDB reference IDs.
